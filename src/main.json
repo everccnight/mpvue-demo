@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/takePhoto/main",
+    "pages/findDetail/main",
+    "pages/findMedicine/main",
+    "pages/search/main",
+    "pages/chooseAddress/main",
+    "pages/alwaysUse/main",
+    "pages/personShare/main",
+    "pages/helpShare/main",
+    "pages/pendingOrder/main",
+    "pages/waitOrder/main",
+    "pages/conOrder/main",
+    "pages/paySuccess/main",
+    "pages/pharmacist/main",
+    "pages/feedback/main",
+    "pages/feedbackd/main",
+    "pages/address/main",
+    "pages/addAddress/main",
+    "pages/editAddress/main",
+    "pages/user/main",
+    "pages/coupon/main",
+    "pages/order/main",
+    "pages/askList/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "万能找药",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#c3c7d1",
+    "selectedColor": "#268be5",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#268be5",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "iconPath": "./static/index.png",
+        "selectedIconPath": "./static/index_Selected.png",
+        "text": "找药"
+      },
+      {
+        "pagePath": "pages/order/main",
+        "iconPath": "./static/order.png",
+        "selectedIconPath": "./static/order_Selected.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/user/main",
+        "iconPath": "./static/user.png",
+        "selectedIconPath": "./static/user_Selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
